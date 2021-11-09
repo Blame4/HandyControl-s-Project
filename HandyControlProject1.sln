@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandyControlProject1", "HandyControlProject1.csproj", "{A6F3AE8E-BD18-4AE6-9829-49186F7954F9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandyControlsProject", "HandyControlsProject.csproj", "{A6F3AE8E-BD18-4AE6-9829-49186F7954F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "..\ConsoleApp1\ConsoleApp1.csproj", "{601DED70-AEE3-4089-B1D7-8D741F90D362}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleHandyControl", "ConsoleApp1\ConsoleHandyControl.csproj", "{601DED70-AEE3-4089-B1D7-8D741F90D362}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandyControlProject2", "..\HandyControlProject2\HandyControlProject2.csproj", "{1BEC0F53-4C17-42DC-9E15-C3BF78DEA4F1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandyControlProject", "HandyControlProject2\HandyControlProject.csproj", "{1BEC0F53-4C17-42DC-9E15-C3BF78DEA4F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleHandysControl", "ConsoleApp1 - Copy\ConsoleHandysControl.csproj", "{96FAFC88-5136-4D76-A745-D6FE78A6B35F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{1BEC0F53-4C17-42DC-9E15-C3BF78DEA4F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BEC0F53-4C17-42DC-9E15-C3BF78DEA4F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BEC0F53-4C17-42DC-9E15-C3BF78DEA4F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96FAFC88-5136-4D76-A745-D6FE78A6B35F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96FAFC88-5136-4D76-A745-D6FE78A6B35F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96FAFC88-5136-4D76-A745-D6FE78A6B35F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96FAFC88-5136-4D76-A745-D6FE78A6B35F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

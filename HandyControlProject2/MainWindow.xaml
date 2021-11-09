@@ -1,5 +1,5 @@
 ﻿<hc:Window
-    x:Class="HandyControlsProject.MainWindow"
+    x:Class="HandyControlProject.MainWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -14,8 +14,8 @@
     <hc:Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <hc:ThemeResources/>
-                <hc:Theme/>
+                <ResourceDictionary Source="pack://application:,,,/HandyControl;component/Themes/SkinDefault.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/HandyControl;component/Themes/Theme.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </hc:Window.Resources>
@@ -41,8 +41,8 @@
                 Name="ButtonConfig"
                 Grid.Column="1"
                 HorizontalAlignment="Right"
-                hc:IconElement.Geometry="{StaticResource ConfigGeometry}"
-                Click="ButtonConfig_OnClick"
+                
+               
                 Foreground="{DynamicResource PrimaryTextBrush}"
                 Style="{StaticResource ButtonIcon}"/>
             <Popup
@@ -58,13 +58,13 @@
                     Background="{DynamicResource SecondaryRegionBrush}"
                     CornerRadius="4"
                     Effect="{StaticResource EffectShadow2}">
-                    <StackPanel Button.Click="ButtonSkins_OnClick">
+                    <StackPanel >
                         <hc:Divider
                             Width="200"
                             Margin="0,10"
                             Content="Application Theme"/>
                         <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
-                            <Button Style="{StaticResource ButtonCustom}" Tag="{x:Static hc:ApplicationTheme.Light}">
+                            <Button Style="{StaticResource ButtonCustom}">
                                 <Border
                                     Width="32"
                                     Height="21"
@@ -76,7 +76,7 @@
                             <Button
                                 Margin="10,0,0,0"
                                 Style="{StaticResource ButtonCustom}"
-                                Tag="{x:Static hc:ApplicationTheme.Dark}">
+                               >
                                 <Border
                                     Width="32"
                                     Height="21"
@@ -156,6 +156,6 @@
         </Grid>
     </hc:Window.NonClientAreaContent>
     <Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="394,192,0,0" VerticalAlignment="Top" Width="75" Style="{StaticResource ButtonPrimary }"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="380,211,0,0" VerticalAlignment="Top" Width="75" Style="{StaticResource ButtonPrimary}"/>
     </Grid>
 </hc:Window>

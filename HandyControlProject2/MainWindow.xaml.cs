@@ -4,7 +4,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 using HandyControl.Controls;
-namespace HandyControlsProject
+namespace HandyControlProject
 {
     public partial class MainWindow
     {
@@ -12,3 +12,6 @@ namespace HandyControlsProject
         {
             InitializeComponent();
         }
+
+    }
+}

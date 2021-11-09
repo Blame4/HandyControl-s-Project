@@ -1,7 +1,7 @@
 ﻿using HandyControl.Themes;
 using System.Windows;
 using System.Windows.Media;
-namespace HandyControlProject1
+namespace HandyControlsProject
 {
     public partial class App : Application
 {
