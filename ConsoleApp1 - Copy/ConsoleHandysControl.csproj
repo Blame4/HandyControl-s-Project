@@ -56,15 +56,15 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="HandyControls">
-      <Version>3.3.8.1</Version>
-    </PackageReference>
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\HandyControlsProject.csproj">
       <Project>{a6f3ae8e-bd18-4ae6-9829-49186f7954f9}</Project>
       <Name>HandyControlsProject</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="HandyControls">
+      <Version>3.3.8.1</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

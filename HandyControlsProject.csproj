@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{A6F3AE8E-BD18-4AE6-9829-49186F7954F9}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>HandyControlProject1</RootNamespace>
-    <AssemblyName>HandyControlProject1</AssemblyName>
+    <RootNamespace>HandyControlsProject</RootNamespace>
+    <AssemblyName>HandyControlsProject</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <WarningLevel>4</WarningLevel>

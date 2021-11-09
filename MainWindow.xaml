@@ -42,7 +42,7 @@
                 Grid.Column="1"
                 HorizontalAlignment="Right"
                 hc:IconElement.Geometry="{StaticResource ConfigGeometry}"
-                Click="ButtonConfig_OnClick"
+                
                 Foreground="{DynamicResource PrimaryTextBrush}"
                 Style="{StaticResource ButtonIcon}"/>
             <Popup
@@ -58,7 +58,7 @@
                     Background="{DynamicResource SecondaryRegionBrush}"
                     CornerRadius="4"
                     Effect="{StaticResource EffectShadow2}">
-                    <StackPanel Button.Click="ButtonSkins_OnClick">
+                    <StackPanel>
                         <hc:Divider
                             Width="200"
                             Margin="0,10"
